@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ul li {
+  width: calc(20% - 20px);
+  margin: 10px;
+  background-color: lightblue;
+  border: 2px solid #008cff;
+  border-radius: 10px;
+  color: blue;
+}
+
+ul .card-movie {
+  text-align: center;
+  padding: 20px 0;
+}
+
